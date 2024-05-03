@@ -1,0 +1,12 @@
+**/build/**/*
+**/env/**/*
+**/venv/**/*
+**/logs/**/*
+**/*.bin
+**/*.pkl
+**/*.db
+**/*.sqlite
+**/*.json
+
+**/__pycache__/**/*
+**/.idea/**/*
