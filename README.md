@@ -1,6 +1,7 @@
 ## Quotes Scrapy with MongoDB and Redis
 
-This project consists of several Python modules for scraping quotes, storing them in MongoDB, and offering a command-line interface to query them.
+This project demonstrates scraping quotes and author details from a website, storing them in MongoDB, and offering a command-line interface to query them.
+The project consists of several Python modules for scraping quotes, storing them in MongoDB, and offering a command-line interface to query them.
 
 **1. Scrapy Spider:**
 
@@ -41,22 +42,14 @@ This project consists of several Python modules for scraping quotes, storing the
 **6. Additional Notes:**
 
 * `connect.py` establishes a connection to the MongoDB cluster using configuration from `config.ini`.
-* `redis_lru.py` (not provided) is likely a custom module for using Redis with least-recently-used caching.
 
-**README.md Structure:**
-
-This is a suggested structure for the project's README.md file:
-
-## Quotes Scrapy with MongoDB and Redis
-
-This project demonstrates scraping quotes and author details from a website, storing them in MongoDB, and offering a command-line interface to query them.
 
 ### Dependencies
 
 * Scrapy
 * MongoEngine
 * Redis
-* redis-lru (custom module or 3rd-party library)
+* redis-lru
 
 ### Setup
 
